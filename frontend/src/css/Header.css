@@ -1,0 +1,51 @@
+.DivHeader {
+    height: var(--hdr-size);
+
+    display: flex;
+    justify-content: center;
+    background-color: var(--col-white);
+    border-bottom: 1px solid var(--col-grey);
+}
+
+.DivHeaderLink {
+    width: var(--hdr-size);
+    height: 100%;
+    background-color: rgba(64, 207, 255, 0.2);
+    margin-left: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--col-mid);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+    border: 0;
+    border-radius: var(--rad-small);
+}
+
+.DivHeaderLink:hover {
+    transition: 0.2s;
+    scale: 102%;
+    background-color: var(--col-white);
+    cursor: pointer;
+    border-bottom: 0.5rem solid var(--col-white);
+    border-radius: var(--rad-big);
+}
+
+.DivHeaderSpace {
+    width: 67%;
+    background-color: var(--col-white);
+}
+
+.DivHeaderLinkHolder {
+    width: 33%;
+    background-color: var(--col-white);
+
+    display: flex;
+    flex-flow: row nowrap;
+}

@@ -1,0 +1,25 @@
+.DivBody {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.DivImgBody {
+    height: calc(100vh - var(--hdr-size) - 1px);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.ImgBody {
+    height: 350rem;
+}
+
+.DivFloater {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
