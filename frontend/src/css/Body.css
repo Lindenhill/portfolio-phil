@@ -1,25 +1,26 @@
 .DivBody {
-    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: var(--col-grey);    
+}
+
+.DivBodyContent {
+    width: 100%;
+    max-width: 55rem;
+    height: 100%;
+    background-color: var(--col-mid);
 }
 
 .DivImgBody {
-    height: calc(100vh - var(--hdr-size) - 1px);
     overflow: hidden;
-    z-index: -1;
 }
 
 .ImgBody {
-    height: 350rem;
+    height: auto;
 }
 
 .DivFloater {
-    position: absolute;
     height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
 }
