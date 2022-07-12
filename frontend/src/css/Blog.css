@@ -1,0 +1,35 @@
+.DivBlog {
+    width: 100%;
+    height: 100%;
+    background-color: var(--col-white);
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.DivBlogHeader {
+    margin: 7rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    height: min-content;
+    width: 100%;
+
+    background-color: var(--col-white);
+    border-bottom: solid 1px var(--col-mid);
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.H2BlogHeader {
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--col-sat);
+}
+
+.DivBlogDate {
+    margin-top: 0.5rem;
+    margin: 1rem;
+    font-weight: 600;
+}

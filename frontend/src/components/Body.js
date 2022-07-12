@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/Body.css";
-import { Home } from "./Home";
+import {
+  Outlet,
+  Link,
+} from "react-router-dom";
 
 export function Body(props)
 {
@@ -10,7 +13,7 @@ export function Body(props)
         <div className="DivImgBody">
         </div>
         <div className="DivFloater">
-          <Home />
+          <Outlet />
         </div>
       </div>
     </div>

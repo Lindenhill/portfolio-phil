@@ -4,11 +4,14 @@
     --col-grey: #CED0D1;
     --col-white: #FFFFFF;
     --col-w-trans: rgba(255, 255, 255, 0.35);
+    --col-sat: #34568B;
+    --col-font: #293038;
     --pad-small: 0.3rem;
     --pad-mid: 0.5rem;
     --pad-big: 1rem;
 
     --hdr-size: 4rem;
+    --hdr-width: 55rem;
     --box-shadow-1: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     --box-shadow-wide: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
@@ -17,15 +20,20 @@
     --rad-big: 0.8rem;
 
     --font-weight-mid: 500;
+    --font-size-hdr: 1.1rem;
 }
 
 html {
     height: 100%;
-    color: var(--col-mid)
+    color: var(--col-font)
 }
 
 body {
     height: 100vh;
+}
+
+h2 {
+    margin: 0;
 }
 
 #root {

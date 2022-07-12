@@ -5,7 +5,7 @@ export function Home(props)
 {
     return(
         <div className="DivHome">
-          <p>test</p>
+            <h2>Home</h2>
         </div>
     );
 }
