@@ -1,16 +1,46 @@
 .DivBody {
     width: 100%;
     height: 100%;
+
+    position: absolute;
+    top: 0;
+
     display: flex;
     justify-content: center;
-    background-color: var(--col-white);
+    background: rgb(35,25,85);
+    background: linear-gradient(90deg, rgba(35,25,85,1) 0%, rgba(31,70,144,1) 37%, rgba(1,11,19,1) 100%); 
 }
 
 .DivBodyContent {
+    position: absolute;
     width: 100%;
-    max-width: 55rem;
-    height: 100%;
-    background-color: var(--col-white);
+    max-width: var(--hdr-width);
+    height: 80%;
+    margin-top: 10rem;
+    z-index: 1;
+
+    background-color: var(--col-bg-1);
+    border: 0;
+    border-radius: var(--rad-mid);
+}
+
+.DivBodyGlow {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    margin-top: 10rem;
+    max-width: var(--hdr-width);
+    z-index: 0;
+
+    box-shadow:
+        inset 0 0 60px whitesmoke,
+        inset 20px 0 80px #f0f,
+        inset -20px 0 80px #0ff,
+        inset 20px 0 300px #f0f,
+        inset -20px 0 300px #0ff,
+        0 0 50px #fff,
+        -10px 0 80px #f0f,
+        10px 0 80px #0ff;
 }
 
 .DivImgBody {
@@ -23,4 +53,7 @@
 
 .DivFloater {
     height: 100%;
+    background-color: var(--col-bg-1);
+    border: 0;
+    border-radius: var(--rad-mid);
 }

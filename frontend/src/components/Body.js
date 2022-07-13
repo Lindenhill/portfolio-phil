@@ -16,6 +16,8 @@ export function Body(props)
           <Outlet />
         </div>
       </div>
+      <div className="DivBodyGlow">
+      </div>
     </div>
   );
 }

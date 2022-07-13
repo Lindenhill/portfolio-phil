@@ -5,7 +5,13 @@
     --col-white: #FFFFFF;
     --col-w-trans: rgba(255, 255, 255, 0.35);
     --col-sat: #34568B;
-    --col-font: #293038;
+    --col-font: #FFFFFF;
+    --col-bg-0: rgba(0,0,0,1);
+    --col-bg-1: rgba(1,11,19,1);
+    --col-bg-2: rgba(35,25,85,1);
+    --col-bg-3: rgba(31,70,144,1);
+
+
     --pad-small: 0.3rem;
     --pad-mid: 0.5rem;
     --pad-big: 1rem;
